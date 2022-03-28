@@ -1,0 +1,48 @@
+body {
+    background-color: #eeeee0;
+    color: black;
+    background-image: url("http://bit.ly/2xWENgN");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.title-graphic {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+h3 {
+    text-align: center;
+}
+  
+  .biophoto {
+     background-color: #cdcdc1;
+     max-width: 50%;
+     max-height: 50%;
+     text-align: center;
+     margin: 0.60%;
+     border: 3px ridge black;
+     line-height: 1.80;
+     
+  }
+  
+  footer {
+      text-align: center;
+      position: fixed;
+      height: 20px;
+      background-color: grey;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      margin-bottom: 0px;
+     
+  }
+  
+  
+  
+  
+  
+  
