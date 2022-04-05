@@ -5,28 +5,39 @@ body {
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
   }
 
 .title-graphic {
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
     
 }
 
-h3 {
-    text-align: center;
+
+.bio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-  
-  .biophoto {
+
+.biophoto {
      background-color: #cdcdc1;
-     max-width: 50%;
-     max-height: 50%;
+     max-width: 40%;
+     max-height: 40%;
      text-align: center;
-     margin: 0.60%;
+     margin: 0.30%;
      border: 3px ridge black;
      line-height: 1.80;
-     
+     padding-left: 20px;
+     padding-right: 20px;
+  }
+
+  img {
+      max-width: 60%;
+      max-height: 60%;
   }
   
   footer {
